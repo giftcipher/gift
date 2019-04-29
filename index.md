@@ -1,4 +1,4 @@
-GIFT is a family of lightweight block ciphers 
+GIFT is a family of two lightweight block ciphers: GIFT64 and GIFT128
 
 # Team
 - **[Subhadeep Banik](https://sites.google.com/site/monsieurlelanc)**, EPFL, Switzerland
@@ -9,6 +9,7 @@ GIFT is a family of lightweight block ciphers
 - **[Yosuke Todo](https://ysktodo.wordpress.com/)**, NTT, Japan
 
 You can contact us on [giftcipher@googlegroups.com](mailto:giftcipher@googlegroups.com). 
+
 
 
 # Downloads
