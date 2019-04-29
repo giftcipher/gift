@@ -1,8 +1,6 @@
-# **GIFT** Family of Block Ciphers 
+GIFT is a family of lightweight block ciphers 
 
-GIFT a family of lightweight block ciphers 
-
-## Team
+# Team
 - **[Subhadeep Banik](https://sites.google.com/site/monsieurlelanc)**, EPFL, Switzerland
 - **Sumit Kumar Pandey**, Ashoka University, India
 - **[Thomas Peyrin](https://sites.google.com/site/thomaspeyrin/)**, Nanyang Technological University, Singapore
@@ -13,7 +11,7 @@ GIFT a family of lightweight block ciphers
 You can contact us on [giftcipher@googlegroups.com](mailto:giftcipher@googlegroups.com). 
 
 
-## Downloads
+# Downloads
 
 The CHES 2017 paper can be found on the [Springer page](https://link.springer.com/chapter/10.1007/978-3-319-66787-4_16) (conference slides [here](https://ches.iacr.org/2017/slides/ches2017s5t3.pdf)) and the updated and full version of the article is available on [ePrint](https://eprint.iacr.org/2017/622.pdf) 
 
