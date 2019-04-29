@@ -10,12 +10,12 @@ GIFT a family of lightweight block ciphers
 - **Siang Meng Sim**, DSO Laboratories, Singapore
 - **[Yosuke Todo](https://ysktodo.wordpress.com/)**, NTT, Japan
 
+You can contact us on [giftcipher@googlegroups.com](mailto:giftcipher@googlegroups.com). 
+
+
+## Downloads
+
 The CHES 2017 paper can be found on the [Springer page](https://link.springer.com/chapter/10.1007/978-3-319-66787-4_16) (conference slides [here](https://ches.iacr.org/2017/slides/ches2017s5t3.pdf)) and the updated and full version of the article is available on [ePrint](https://eprint.iacr.org/2017/622.pdf) 
 
-You can contact us on [remus-and-romulus@googlegroups.com](mailto:remus-and-romulus@googlegroups.com). 
-
-
-## Download
-
-You can download below test vectors and reference implementations for both versions of GIFT.  You can also find [here](https://eprint.iacr.org/2017/1040.pdf) a work on threshold implementations of GIFT by Gupta et al.
+Here are [test vectors](https://github.com/giftcipher/gift/raw/master/gift_test_vectors.zip) and [reference implementations](https://github.com/giftcipher/gift/raw/master/gift_reference_implementation.zip) for both versions of GIFT.  You can also find [here](https://eprint.iacr.org/2017/1040.pdf) a work on threshold implementations of GIFT by Gupta et al.
 
