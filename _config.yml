@@ -8,6 +8,7 @@ sass:
 theme: jekyll-theme-midnight
 
 github:
+  is_project_page: false
   private: false
   license:
     name: MIT
