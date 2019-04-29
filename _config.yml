@@ -7,5 +7,13 @@ sass:
   
 theme: jekyll-theme-midnight
 
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+
 name: yo
 title: null
