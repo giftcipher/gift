@@ -18,5 +18,5 @@ The CHES 2017 paper can be found on the [Springer page](https://link.springer.co
 
 Here are [test vectors](https://github.com/giftcipher/gift/raw/master/gift_test_vectors.zip) and [reference implementations](https://github.com/giftcipher/gift/raw/master/gift_reference_implementation.zip) for both versions of GIFT.  You can also find [here](https://eprint.iacr.org/2017/1040.pdf) a work on threshold implementations of GIFT by Gupta et al.
 
-The [Github page of GIFT](https://github.com/giftcipher/gift). 
+The [GitHub page of GIFT](https://github.com/giftcipher/gift). 
 
