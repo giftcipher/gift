@@ -1,4 +1,4 @@
-show_downloads: false
+show_downloads: true
 
 exclude:
   - node_modules
