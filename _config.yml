@@ -5,7 +5,7 @@ exclude:
 sass:
   style: :compressed
   
-theme: jekyll-theme-midnight
+theme: jekyll-theme-tactile
 
 github:
   is_project_page: false
