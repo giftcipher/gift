@@ -5,7 +5,7 @@ GIFT is a family of two lightweight block ciphers: GIFT64 and GIFT128
 - **Sumit Kumar Pandey**, Ashoka University, India
 - **[Thomas Peyrin](https://sites.google.com/site/thomaspeyrin/)**, Nanyang Technological University, Singapore
 - **Yu Sasaki**, NTT, Japan
-- **Siang Meng Sim**, DSO Laboratories, Singapore
+- **Siang Meng Sim**, DSO National Laboratories, Singapore
 - **[Yosuke Todo](https://ysktodo.wordpress.com/)**, NTT, Japan
 
 You can contact us on [giftcipher@googlegroups.com](mailto:giftcipher@googlegroups.com)
