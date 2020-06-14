@@ -1,0 +1,383 @@
+Plaintext = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+masterkey = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+----------
+encryption...
+----------
+input = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+key = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+ 0: after SubCells: e8 05 7b d2 93 f6 c4 a1 e8 05 7b d2 93 f6 c4 a1 
+ 0: after PermBits: 47 34 47 34 6b d8 6b d8 8f 70 8f 70 90 af 90 af 
+ 0: after AddRoundKeys: c1 52 41 54 6d de 6d d8 8f 16 8f 10 90 a9 90 a7 
+ 0: updated Key: 1d 95 21 03 fe dc ba 98 76 54 32 10 fe dc ba 98 
+
+ 1: after SubCells: 5a f4 6a f6 30 08 30 02 2e a3 2e a1 d1 bd d1 b9 
+ 1: after PermBits: 77 80 22 dd ce 22 aa d9 de 13 a8 11 22 00 77 bb 
+ 1: after AddRoundKeys: 91 e6 44 bd a8 24 cc d9 be 75 c8 71 42 06 17 33 
+ 1: updated Key: 3f b7 a9 8b 1d 95 21 03 fe dc ba 98 76 54 32 10 
+
+ 2: after SubCells: da 83 66 70 b2 46 55 0d 78 9f 52 9a 64 13 a9 cc 
+ 2: after PermBits: 67 2c df 58 82 65 e8 2f b4 71 b3 2c 96 85 10 58 
+ 2: after AddRoundKeys: e5 0a 99 7c c0 63 ee 2b b4 13 b3 08 96 87 18 94 
+ 2: updated Key: 1d 95 21 03 3f b7 a9 8b 1d 95 21 03 fe dc ba 98 
+
+ 3: after SubCells: 8f 1b dd 95 51 3c 88 47 76 ac 7c 12 d3 29 a2 d6 
+ 3: after PermBits: b5 d0 e5 e3 1d 54 e2 1e a9 1e 1b 16 dd 29 64 b8 
+ 3: after AddRoundKeys: 17 b6 83 87 7f 12 c4 5a c9 7c 7b 32 bd 2b 8c 74 
+ 3: updated Key: 3f b7 a9 8b 1d 95 21 03 3f b7 a9 8b 1d 95 21 03 
+
+ 4: after SubCells: a9 73 2c 29 9e a4 56 fb 5d 95 97 c4 70 47 25 96 
+ 4: after PermBits: 18 2f 52 41 32 c8 dd 6f e8 97 95 72 b7 e7 5c 14 
+ 4: after AddRoundKeys: 98 29 34 47 52 ce db 69 e8 f7 95 74 b7 ef d4 fa 
+ 4: updated Key: 47 65 10 32 3f b7 a9 8b 1d 95 21 03 3f b7 a9 8b 
+
+ 5: after SubCells: d2 4d c6 69 f4 58 07 3d 82 e9 df 96 79 8e 06 eb 
+ 5: after PermBits: ee db a7 ca 40 25 8d f8 54 50 4b b6 9f c7 bc 07 
+ 5: after AddRoundKeys: 6e bd c1 ac 20 43 8b 9e 34 30 2b b0 ff 4f 54 e1 
+ 5: updated Key: cf ed 98 ba 47 65 10 32 3f b7 a9 8b 1d 95 21 03 
+
+ 6: after SubCells: 38 70 5a b5 41 6c 27 d8 c6 c1 47 71 ee 6e f6 8a 
+ 6: after PermBits: 17 cb 67 ee 2c 5b 81 6a d9 44 44 e3 23 24 d7 ec 
+ 6: after AddRoundKeys: 93 c9 41 a8 08 19 87 6c d9 60 44 e1 23 e8 5f 86 
+ 6: updated Key: 47 65 10 32 cf ed 98 ba 47 65 10 32 3f b7 a9 8b 
+
+ 7: after SubCells: dc 5d 6a b2 12 ad 29 35 0d 31 66 8a 4c 82 fe 23 
+ 7: after PermBits: d7 a1 1e 46 4a c7 1a 82 da 18 82 ab d2 33 74 4f 
+ 7: after AddRoundKeys: 13 83 78 20 2e a5 5c a4 ba 3c e2 a9 b2 ff 94 a5 
+ 7: updated Key: cf ed 98 ba 47 65 10 32 cf ed 98 ba 47 65 10 32 
+
+ 8: after SubCells: ac 2c 92 41 48 bf f5 b6 7b c5 84 bd 74 ee d6 bf 
+ 8: after PermBits: 82 d5 69 cf 60 cf fc ec 85 a3 d0 73 e9 3e 1f 6f 
+ 8: after AddRoundKeys: 04 d5 6f a9 66 af fa ea 85 a5 d0 73 e9 d0 17 87 
+ 8: updated Key: 51 d9 03 21 cf ed 98 ba 47 65 10 32 cf ed 98 ba 
+
+ 9: after SubCells: 16 0f 3e bd 33 be eb 8b 2f bf 01 9c 8d 01 a9 29 
+ 9: after PermBits: ab be b9 08 4e fb fd 13 39 3a a0 88 57 29 70 db 
+ 9: after AddRoundKeys: 4d be df 6e 28 9b 9b 15 59 3c c0 88 37 cf 98 33 
+ 9: updated Key: 73 fb 8b a9 51 d9 03 21 cf ed 98 ba 47 65 10 32 
+
+10: after SubCells: 60 78 0e 38 42 d7 d7 af fd c5 51 22 c9 5e d2 cc 
+10: after PermBits: db 7e 44 de 20 cd f1 5c 48 63 d3 e5 26 1f d2 88 
+10: after AddRoundKeys: 5d 7a 46 f8 66 e9 b3 5a 48 61 d3 a1 26 75 5a 2c 
+10: updated Key: 51 d9 03 21 73 fb 8b a9 51 d9 03 21 cf ed 98 ba 
+
+11: after SubCells: f0 9b 63 e2 33 8d 7c fb 62 3a 0c ba 43 9f fb 45 
+11: after PermBits: d6 ad f9 f6 ab fa 28 d7 36 1f 2a 2d 92 17 26 19 
+11: after AddRoundKeys: 70 e9 db 90 cd 9e 4a 91 56 1d 4a 69 f2 fd ce 3d 
+11: updated Key: 73 fb 8b a9 51 d9 03 21 73 fb 8b a9 51 d9 03 21 
+
+12: after SubCells: 91 8d 07 d1 50 d8 6b da f3 a0 6b 3d e4 e0 58 c0 
+12: after PermBits: 83 df 6f 44 d9 8b b7 a8 14 5e 18 4d 95 00 a3 e0 
+12: after AddRoundKeys: 05 d9 6f 42 bf 8d d7 ae 14 5e 18 2b 95 e8 23 ee 
+12: updated Key: 54 76 32 10 73 fb 8b a9 51 d9 03 21 73 fb 8b a9 
+
+13: after SubCells: 1f 0d 3e 64 7e 20 09 b8 a6 f8 a2 47 df 82 4c 88 
+13: after PermBits: a2 69 b2 6c 56 29 a6 98 9d 98 46 b8 56 62 e9 c4 
+13: after AddRoundKeys: 24 0f b2 0a 30 4f c6 fe fd 98 26 de 36 8a 89 4a 
+13: updated Key: dc fe ba 98 54 76 32 10 73 fb 8b a9 51 d9 03 21 
+
+14: after SubCells: 46 1e 74 1b c1 6e 53 e8 e0 d2 43 08 c3 2b 2d 6b 
+14: after PermBits: fd ce 5e e8 42 59 a1 13 23 65 60 2e 45 a2 80 b7 
+14: after AddRoundKeys: 7b c8 5a ea 64 1f 85 51 23 21 60 4c 45 06 88 3d 
+14: updated Key: 54 76 32 10 dc fe ba 98 54 76 32 10 73 fb 8b a9 
+
+15: after SubCells: 97 52 fb 8b 36 ae 2f fa 4c 4a 31 65 6f 13 22 c0 
+15: after PermBits: 3e ab c0 72 1b eb 07 3a 7b 3e e5 a4 c9 66 43 50 
+15: after AddRoundKeys: f8 8d 84 50 7d 8d 63 58 1b 7a 85 c6 a9 42 ab d2 
+15: updated Key: dc fe ba 98 54 76 32 10 dc fe ba 98 54 76 32 10 
+
+16: after SubCells: e2 20 26 f1 90 20 3c f2 a7 9b 2f 53 bd 64 b7 04 
+16: after PermBits: 63 01 b3 02 2a 0a b3 77 04 1f 2e d1 a7 a6 d5 ec 
+16: after AddRoundKeys: e5 07 b5 02 2c 6c b5 17 04 79 2e b1 a7 a8 5d e4 
+16: updated Key: 95 1d 21 03 dc fe ba 98 54 76 32 10 dc fe ba 98 
+
+17: after SubCells: 8f 19 7f 14 45 35 7f a9 16 9d 48 7a b9 b2 f0 86 
+17: after PermBits: b7 5e bd 14 17 5b c0 be 89 09 1e b3 d4 77 52 a8 
+17: after AddRoundKeys: 51 58 db 14 71 3d a6 de e9 6f 7e d3 b4 f9 b2 28 
+17: updated Key: b7 3f a9 8b 95 1d 21 03 dc fe ba 98 54 76 32 10 
+
+18: after SubCells: fa f2 07 a6 9a c0 b3 08 8d 3e 98 0c 76 ed 74 42 
+18: after PermBits: 72 2a 98 e4 ad 83 54 e2 f2 d1 a9 57 a6 88 e8 74 
+18: after AddRoundKeys: b0 2c 9e e0 af a5 12 c6 f2 b3 a9 73 a6 02 e0 38 
+18: updated Key: 95 1d 21 03 b7 3f a9 8b 95 1d 21 03 dc fe ba 98 
+
+19: after SubCells: 71 45 d8 81 be bf a4 53 e4 7c bd 9c b3 14 81 c2 
+19: after PermBits: 44 b1 d9 30 78 e2 6f 79 59 b6 49 16 19 fd ec 88 
+19: after AddRoundKeys: a6 f7 ff 74 5a 84 09 1d 39 d4 29 32 79 7f 0c 44 
+19: updated Key: b7 3f a9 8b 95 1d 21 03 b7 3f a9 8b 95 1d 21 03 
+
+20: after SubCells: b3 e9 ee 96 fb 26 1d a0 cd 06 4d c4 9d 9e 15 66 
+20: after PermBits: a7 60 44 90 be 79 5d d5 5a b9 ac b7 bc a6 c4 c6 
+20: after AddRoundKeys: 47 66 42 96 be 7f 3b d3 5a d9 ac b1 bc ae cc 20 
+20: updated Key: 65 47 10 32 b7 3f a9 8b 95 1d 21 03 b7 3f a9 8b 
+
+21: after SubCells: 69 33 64 d3 78 9e c7 0c fb 0d b5 7a 75 b8 55 41 
+21: after PermBits: 55 de e9 d4 3a e5 73 b1 a6 b0 97 15 35 0c 9e 65 
+21: after AddRoundKeys: b5 b8 ef b2 3a 83 15 d7 c6 d0 f7 13 55 8c 76 03 
+21: updated Key: ed cf 98 ba 65 47 10 32 b7 3f a9 8b 95 1d 21 03 
+
+22: after SubCells: 7f 72 8e 74 cb 2c af 09 53 01 e9 ac ff 25 93 1c 
+22: after PermBits: 73 ea 6c 6b 34 53 1f 75 fc 88 18 91 6e ad 1a f8 
+22: after AddRoundKeys: d7 a8 6a 6d 30 51 39 33 fc ac 18 93 6e e1 9a 9a 
+22: updated Key: 65 47 10 32 ed cf 98 ba 65 47 10 32 b7 3f a9 8b 
+
+23: after SubCells: 09 b2 3b 30 c1 fa cd cc e5 b5 a2 dc 38 8a db db 
+23: after PermBits: 13 dc 5b 8f 93 9d fe a9 a9 6c 04 bf 22 ac f8 09 
+23: after AddRoundKeys: f7 be 1d a9 d7 bf 98 cf c9 48 64 bd 42 60 98 6b 
+23: updated Key: ed cf 98 ba 65 47 10 32 ed cf 98 ba 65 47 10 32 
+
+24: after SubCells: e9 78 a0 bd 09 7e d2 5e 5d 62 36 70 64 31 d2 37 
+24: after PermBits: d9 9f 43 57 3e 54 12 24 c0 e7 f5 03 ab 28 66 7b 
+24: after AddRoundKeys: 5f ff 45 51 38 54 14 42 c0 e1 f5 03 ab ce 66 13 
+24: updated Key: d9 51 03 21 ed cf 98 ba 65 47 10 32 ed cf 98 ba 
+
+25: after SubCells: fe ee 6f fa c2 f6 a6 64 51 8a ef 1c b7 58 33 ac 
+25: after PermBits: ef 72 cf ba eb c6 97 3f fe 64 38 51 e6 ae 0c c2 
+25: after AddRoundKeys: 09 12 a9 bc 8d c6 f1 59 9e 62 58 51 86 c8 6c 22 
+25: updated Key: fb 73 8b a9 d9 51 03 21 ed cf 98 ba 65 47 10 32 
+
+26: after SubCells: 1d a4 bd 75 20 53 ea fd d8 34 f2 fa 23 52 35 44 
+26: after PermBits: 01 1f 5f 30 d7 2e 4a 37 9d 6c 97 65 6f 1b aa 04 
+26: after AddRoundKeys: c7 3b 1d 36 d1 2a 48 11 9d 6e 97 21 6f 79 a2 28 
+26: updated Key: d9 51 03 21 fb 73 8b a9 d9 51 03 21 ed cf 98 ba 
+
+27: after SubCells: 59 c7 a0 c3 0a 4b 62 aa d0 38 d9 4a 3e 9d b4 42 
+27: after PermBits: 40 ae dc b0 da 0a 01 e2 f6 e2 1f 97 19 12 a8 5c 
+27: after AddRoundKeys: a6 ca be f6 fc 4e 23 84 96 e0 7f d3 79 70 48 f0 
+27: updated Key: fb 73 8b a9 d9 51 03 21 fb 73 8b a9 d9 51 03 21 
+
+28: after SubCells: b3 5b 78 e3 e5 68 4c 26 d3 81 9e 0c 9d 91 62 e1 
+28: after PermBits: b4 c4 6a 16 3a 34 94 9a 7f 4a 19 94 93 e6 9c d3 
+28: after AddRoundKeys: 52 c2 0a 10 3c 32 94 9c 7f 4a 19 f2 93 8e 94 5d 
+28: updated Key: 76 54 32 10 fb 73 8b a9 d9 51 03 21 fb 73 8b a9 
+
+29: after SubCells: f4 54 1b a1 c5 c4 d6 d5 9e 6b ad e4 dc 28 d6 f0 
+29: after PermBits: 52 47 a0 c7 69 dc 0f 08 59 45 fc 95 c3 cd fe ee 
+29: after AddRoundKeys: b4 21 c0 a1 6f ba 0f 6e 39 45 9c f3 a3 2d 16 68 
+29: updated Key: fe dc ba 98 76 54 32 10 fb 73 8b a9 d9 51 03 21 
+
+30: after SubCells: 76 4a 51 ba 3e 7b 1e 38 cd 6f d5 ec bc 40 a3 32 
+30: after PermBits: ed bb cc 03 29 20 5d 23 73 f9 e5 d2 42 76 fe ca 
+30: after AddRoundKeys: 4b fd e8 41 2f 26 59 21 73 bd e5 b0 42 5a 76 c8 
+30: updated Key: 76 54 32 10 fe dc ba 98 76 54 32 10 fb 73 8b a9 
+
+31: after SubCells: 67 e0 82 6a 4e 43 fd 4a 9c 70 8f 71 64 fb 93 52 
+31: after PermBits: 6a 6c 13 d3 b0 03 01 a1 46 ef dc 67 6a 5c ef 78 
+31: after AddRoundKeys: 8c 0a 77 b1 f6 25 45 83 26 ab bc 05 0a f0 0f 7a 
+31: updated Key: fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+32: after SubCells: 25 1b 99 7a e3 4f 6f 2c 43 b7 75 1f 1b e1 1e 9b 
+32: after PermBits: 99 ee 7d 2b 31 77 d7 98 2f 68 23 db 5a 96 35 35 
+32: after AddRoundKeys: 1f 88 7b 4b 37 71 d1 98 2f 0e 23 bb 5a 18 35 3d 
+32: updated Key: 1d 95 21 03 fe dc ba 98 76 54 32 10 fe dc ba 98 
+
+33: after SubCells: ae 22 97 67 c9 9a 0a d2 4e 18 4c 77 fb a2 cf c0 
+33: after PermBits: 22 d3 f5 66 25 98 04 b9 a7 ae 8e bc ef 80 47 ac 
+33: after AddRoundKeys: c4 b5 93 06 43 9e 62 b9 c7 c8 ee dc 8f 06 27 24 
+33: updated Key: 3f b7 a9 8b 1d 95 21 03 fe dc ba 98 76 54 32 10 
+
+34: after SubCells: 56 7f dc 13 6c d8 34 7d 59 52 88 05 2e 13 49 46 
+34: after PermBits: f5 d9 50 34 40 a6 14 25 7b c5 f8 ae 7d 47 09 50 
+34: after AddRoundKeys: 77 ff 16 10 02 a0 12 21 7b a7 f8 8a 7d 45 01 94 
+34: updated Key: 1d 95 21 03 3f b7 a9 8b 1d 95 21 03 fe dc ba 98 
+
+35: after SubCells: 99 ee a3 a1 14 b1 a4 4a 97 b9 e2 2b 90 6f 1a d6 
+35: after PermBits: 82 18 be 83 db 82 92 4c f0 16 12 7f ab 7c fb b0 
+35: after AddRoundKeys: 20 7e d8 e7 b9 c4 b4 08 90 74 72 5b cb 7e 13 fc 
+35: updated Key: 3f b7 a9 8b 1d 95 21 03 3f b7 a9 8b 1d 95 21 03 
+
+36: after SubCells: 41 98 02 89 7d 56 76 12 d1 96 94 f7 57 98 ac e5 
+36: after PermBits: da 57 51 f0 98 72 dc 9e 00 f3 37 1c 01 44 8f 4f 
+36: after AddRoundKeys: 5a 51 37 f6 f8 74 da 98 00 93 37 1a 01 4c 0f a1 
+36: updated Key: 47 65 10 32 3f b7 a9 8b 1d 95 21 03 3f b7 a9 8b 
+
+37: after SubCells: fb fa c9 e3 e2 96 0b d2 11 dc c9 ab 1a 65 1e ba 
+37: after PermBits: f4 73 9c 2b b9 e9 d9 48 fe 2e 5a db ab 80 0b 36 
+37: after AddRoundKeys: 74 15 fa 4d d9 8f df 2e 9e 4e 3a dd cb 08 63 d0 
+37: updated Key: cf ed 98 ba 47 65 10 32 3f b7 a9 8b 1d 95 21 03 
+
+38: after SubCells: 96 af eb 60 0d 2e 0e 48 d8 68 cb 00 57 12 3c 01 
+38: after PermBits: a6 8a c6 70 c3 50 01 12 3c ac d8 39 fa 64 a8 45 
+38: after AddRoundKeys: 22 88 e0 36 e7 12 07 14 3c 88 d8 3b fa a0 20 2f 
+38: updated Key: 47 65 10 32 cf ed 98 ba 47 65 10 32 3f b7 a9 8b 
+
+39: after SubCells: 44 22 81 c3 89 a4 19 a6 c5 22 02 c7 eb b1 41 4e 
+39: after PermBits: 40 00 42 7c 09 dd 1c b5 26 8b 26 86 69 a2 e1 b0 
+39: after AddRoundKeys: 84 22 24 1a 6d bf 5a 93 46 af 46 84 09 ee 01 52 
+39: updated Key: cf ed 98 ba 47 65 10 32 cf ed 98 ba 47 65 10 32 
+
+input = 84 22 24 1a 6d bf 5a 93 46 af 46 84 09 ee 01 52 
+key = cf ed 98 ba 47 65 10 32 cf ed 98 ba 47 65 10 32 
+
+Ciphertext = 84 22 24 1a 6d bf 5a 93 46 af 46 84 09 ee 01 52 
+
+----------
+decryption...
+----------
+input = 84 22 24 1a 6d bf 5a 93 46 af 46 84 09 ee 01 52 
+key = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+39: after inverse AddRoundKeys: 40 00 42 7c 09 dd 1c b5 26 8b 26 86 69 a2 e1 b0 
+39: after inverse PermBits: 44 22 81 c3 89 a4 19 a6 c5 22 02 c7 eb b1 41 4e 
+39: after inverse SubCells: 22 88 e0 36 e7 12 07 14 3c 88 d8 3b fa a0 20 2f 
+
+38: after inverse AddRoundKeys: a6 8a c6 70 c3 50 01 12 3c ac d8 39 fa 64 a8 45 
+38: after inverse PermBits: 96 af eb 60 0d 2e 0e 48 d8 68 cb 00 57 12 3c 01 
+38: after inverse SubCells: 74 15 fa 4d d9 8f df 2e 9e 4e 3a dd cb 08 63 d0 
+
+37: after inverse AddRoundKeys: f4 73 9c 2b b9 e9 d9 48 fe 2e 5a db ab 80 0b 36 
+37: after inverse PermBits: fb fa c9 e3 e2 96 0b d2 11 dc c9 ab 1a 65 1e ba 
+37: after inverse SubCells: 5a 51 37 f6 f8 74 da 98 00 93 37 1a 01 4c 0f a1 
+
+36: after inverse AddRoundKeys: da 57 51 f0 98 72 dc 9e 00 f3 37 1c 01 44 8f 4f 
+36: after inverse PermBits: 41 98 02 89 7d 56 76 12 d1 96 94 f7 57 98 ac e5 
+36: after inverse SubCells: 20 7e d8 e7 b9 c4 b4 08 90 74 72 5b cb 7e 13 fc 
+
+35: after inverse AddRoundKeys: 82 18 be 83 db 82 92 4c f0 16 12 7f ab 7c fb b0 
+35: after inverse PermBits: 99 ee a3 a1 14 b1 a4 4a 97 b9 e2 2b 90 6f 1a d6 
+35: after inverse SubCells: 77 ff 16 10 02 a0 12 21 7b a7 f8 8a 7d 45 01 94 
+
+34: after inverse AddRoundKeys: f5 d9 50 34 40 a6 14 25 7b c5 f8 ae 7d 47 09 50 
+34: after inverse PermBits: 56 7f dc 13 6c d8 34 7d 59 52 88 05 2e 13 49 46 
+34: after inverse SubCells: c4 b5 93 06 43 9e 62 b9 c7 c8 ee dc 8f 06 27 24 
+
+33: after inverse AddRoundKeys: 22 d3 f5 66 25 98 04 b9 a7 ae 8e bc ef 80 47 ac 
+33: after inverse PermBits: ae 22 97 67 c9 9a 0a d2 4e 18 4c 77 fb a2 cf c0 
+33: after inverse SubCells: 1f 88 7b 4b 37 71 d1 98 2f 0e 23 bb 5a 18 35 3d 
+
+32: after inverse AddRoundKeys: 99 ee 7d 2b 31 77 d7 98 2f 68 23 db 5a 96 35 35 
+32: after inverse PermBits: 25 1b 99 7a e3 4f 6f 2c 43 b7 75 1f 1b e1 1e 9b 
+32: after inverse SubCells: 8c 0a 77 b1 f6 25 45 83 26 ab bc 05 0a f0 0f 7a 
+
+31: after inverse AddRoundKeys: 6a 6c 13 d3 b0 03 01 a1 46 ef dc 67 6a 5c ef 78 
+31: after inverse PermBits: 67 e0 82 6a 4e 43 fd 4a 9c 70 8f 71 64 fb 93 52 
+31: after inverse SubCells: 4b fd e8 41 2f 26 59 21 73 bd e5 b0 42 5a 76 c8 
+
+30: after inverse AddRoundKeys: ed bb cc 03 29 20 5d 23 73 f9 e5 d2 42 76 fe ca 
+30: after inverse PermBits: 76 4a 51 ba 3e 7b 1e 38 cd 6f d5 ec bc 40 a3 32 
+30: after inverse SubCells: b4 21 c0 a1 6f ba 0f 6e 39 45 9c f3 a3 2d 16 68 
+
+29: after inverse AddRoundKeys: 52 47 a0 c7 69 dc 0f 08 59 45 fc 95 c3 cd fe ee 
+29: after inverse PermBits: f4 54 1b a1 c5 c4 d6 d5 9e 6b ad e4 dc 28 d6 f0 
+29: after inverse SubCells: 52 c2 0a 10 3c 32 94 9c 7f 4a 19 f2 93 8e 94 5d 
+
+28: after inverse AddRoundKeys: b4 c4 6a 16 3a 34 94 9a 7f 4a 19 94 93 e6 9c d3 
+28: after inverse PermBits: b3 5b 78 e3 e5 68 4c 26 d3 81 9e 0c 9d 91 62 e1 
+28: after inverse SubCells: a6 ca be f6 fc 4e 23 84 96 e0 7f d3 79 70 48 f0 
+
+27: after inverse AddRoundKeys: 40 ae dc b0 da 0a 01 e2 f6 e2 1f 97 19 12 a8 5c 
+27: after inverse PermBits: 59 c7 a0 c3 0a 4b 62 aa d0 38 d9 4a 3e 9d b4 42 
+27: after inverse SubCells: c7 3b 1d 36 d1 2a 48 11 9d 6e 97 21 6f 79 a2 28 
+
+26: after inverse AddRoundKeys: 01 1f 5f 30 d7 2e 4a 37 9d 6c 97 65 6f 1b aa 04 
+26: after inverse PermBits: 1d a4 bd 75 20 53 ea fd d8 34 f2 fa 23 52 35 44 
+26: after inverse SubCells: 09 12 a9 bc 8d c6 f1 59 9e 62 58 51 86 c8 6c 22 
+
+25: after inverse AddRoundKeys: ef 72 cf ba eb c6 97 3f fe 64 38 51 e6 ae 0c c2 
+25: after inverse PermBits: fe ee 6f fa c2 f6 a6 64 51 8a ef 1c b7 58 33 ac 
+25: after inverse SubCells: 5f ff 45 51 38 54 14 42 c0 e1 f5 03 ab ce 66 13 
+
+24: after inverse AddRoundKeys: d9 9f 43 57 3e 54 12 24 c0 e7 f5 03 ab 28 66 7b 
+24: after inverse PermBits: e9 78 a0 bd 09 7e d2 5e 5d 62 36 70 64 31 d2 37 
+24: after inverse SubCells: f7 be 1d a9 d7 bf 98 cf c9 48 64 bd 42 60 98 6b 
+
+23: after inverse AddRoundKeys: 13 dc 5b 8f 93 9d fe a9 a9 6c 04 bf 22 ac f8 09 
+23: after inverse PermBits: 09 b2 3b 30 c1 fa cd cc e5 b5 a2 dc 38 8a db db 
+23: after inverse SubCells: d7 a8 6a 6d 30 51 39 33 fc ac 18 93 6e e1 9a 9a 
+
+22: after inverse AddRoundKeys: 73 ea 6c 6b 34 53 1f 75 fc 88 18 91 6e ad 1a f8 
+22: after inverse PermBits: 7f 72 8e 74 cb 2c af 09 53 01 e9 ac ff 25 93 1c 
+22: after inverse SubCells: b5 b8 ef b2 3a 83 15 d7 c6 d0 f7 13 55 8c 76 03 
+
+21: after inverse AddRoundKeys: 55 de e9 d4 3a e5 73 b1 a6 b0 97 15 35 0c 9e 65 
+21: after inverse PermBits: 69 33 64 d3 78 9e c7 0c fb 0d b5 7a 75 b8 55 41 
+21: after inverse SubCells: 47 66 42 96 be 7f 3b d3 5a d9 ac b1 bc ae cc 20 
+
+20: after inverse AddRoundKeys: a7 60 44 90 be 79 5d d5 5a b9 ac b7 bc a6 c4 c6 
+20: after inverse PermBits: b3 e9 ee 96 fb 26 1d a0 cd 06 4d c4 9d 9e 15 66 
+20: after inverse SubCells: a6 f7 ff 74 5a 84 09 1d 39 d4 29 32 79 7f 0c 44 
+
+19: after inverse AddRoundKeys: 44 b1 d9 30 78 e2 6f 79 59 b6 49 16 19 fd ec 88 
+19: after inverse PermBits: 71 45 d8 81 be bf a4 53 e4 7c bd 9c b3 14 81 c2 
+19: after inverse SubCells: b0 2c 9e e0 af a5 12 c6 f2 b3 a9 73 a6 02 e0 38 
+
+18: after inverse AddRoundKeys: 72 2a 98 e4 ad 83 54 e2 f2 d1 a9 57 a6 88 e8 74 
+18: after inverse PermBits: fa f2 07 a6 9a c0 b3 08 8d 3e 98 0c 76 ed 74 42 
+18: after inverse SubCells: 51 58 db 14 71 3d a6 de e9 6f 7e d3 b4 f9 b2 28 
+
+17: after inverse AddRoundKeys: b7 5e bd 14 17 5b c0 be 89 09 1e b3 d4 77 52 a8 
+17: after inverse PermBits: 8f 19 7f 14 45 35 7f a9 16 9d 48 7a b9 b2 f0 86 
+17: after inverse SubCells: e5 07 b5 02 2c 6c b5 17 04 79 2e b1 a7 a8 5d e4 
+
+16: after inverse AddRoundKeys: 63 01 b3 02 2a 0a b3 77 04 1f 2e d1 a7 a6 d5 ec 
+16: after inverse PermBits: e2 20 26 f1 90 20 3c f2 a7 9b 2f 53 bd 64 b7 04 
+16: after inverse SubCells: f8 8d 84 50 7d 8d 63 58 1b 7a 85 c6 a9 42 ab d2 
+
+15: after inverse AddRoundKeys: 3e ab c0 72 1b eb 07 3a 7b 3e e5 a4 c9 66 43 50 
+15: after inverse PermBits: 97 52 fb 8b 36 ae 2f fa 4c 4a 31 65 6f 13 22 c0 
+15: after inverse SubCells: 7b c8 5a ea 64 1f 85 51 23 21 60 4c 45 06 88 3d 
+
+14: after inverse AddRoundKeys: fd ce 5e e8 42 59 a1 13 23 65 60 2e 45 a2 80 b7 
+14: after inverse PermBits: 46 1e 74 1b c1 6e 53 e8 e0 d2 43 08 c3 2b 2d 6b 
+14: after inverse SubCells: 24 0f b2 0a 30 4f c6 fe fd 98 26 de 36 8a 89 4a 
+
+13: after inverse AddRoundKeys: a2 69 b2 6c 56 29 a6 98 9d 98 46 b8 56 62 e9 c4 
+13: after inverse PermBits: 1f 0d 3e 64 7e 20 09 b8 a6 f8 a2 47 df 82 4c 88 
+13: after inverse SubCells: 05 d9 6f 42 bf 8d d7 ae 14 5e 18 2b 95 e8 23 ee 
+
+12: after inverse AddRoundKeys: 83 df 6f 44 d9 8b b7 a8 14 5e 18 4d 95 00 a3 e0 
+12: after inverse PermBits: 91 8d 07 d1 50 d8 6b da f3 a0 6b 3d e4 e0 58 c0 
+12: after inverse SubCells: 70 e9 db 90 cd 9e 4a 91 56 1d 4a 69 f2 fd ce 3d 
+
+11: after inverse AddRoundKeys: d6 ad f9 f6 ab fa 28 d7 36 1f 2a 2d 92 17 26 19 
+11: after inverse PermBits: f0 9b 63 e2 33 8d 7c fb 62 3a 0c ba 43 9f fb 45 
+11: after inverse SubCells: 5d 7a 46 f8 66 e9 b3 5a 48 61 d3 a1 26 75 5a 2c 
+
+10: after inverse AddRoundKeys: db 7e 44 de 20 cd f1 5c 48 63 d3 e5 26 1f d2 88 
+10: after inverse PermBits: 60 78 0e 38 42 d7 d7 af fd c5 51 22 c9 5e d2 cc 
+10: after inverse SubCells: 4d be df 6e 28 9b 9b 15 59 3c c0 88 37 cf 98 33 
+
+ 9: after inverse AddRoundKeys: ab be b9 08 4e fb fd 13 39 3a a0 88 57 29 70 db 
+ 9: after inverse PermBits: 16 0f 3e bd 33 be eb 8b 2f bf 01 9c 8d 01 a9 29 
+ 9: after inverse SubCells: 04 d5 6f a9 66 af fa ea 85 a5 d0 73 e9 d0 17 87 
+
+ 8: after inverse AddRoundKeys: 82 d5 69 cf 60 cf fc ec 85 a3 d0 73 e9 3e 1f 6f 
+ 8: after inverse PermBits: ac 2c 92 41 48 bf f5 b6 7b c5 84 bd 74 ee d6 bf 
+ 8: after inverse SubCells: 13 83 78 20 2e a5 5c a4 ba 3c e2 a9 b2 ff 94 a5 
+
+ 7: after inverse AddRoundKeys: d7 a1 1e 46 4a c7 1a 82 da 18 82 ab d2 33 74 4f 
+ 7: after inverse PermBits: dc 5d 6a b2 12 ad 29 35 0d 31 66 8a 4c 82 fe 23 
+ 7: after inverse SubCells: 93 c9 41 a8 08 19 87 6c d9 60 44 e1 23 e8 5f 86 
+
+ 6: after inverse AddRoundKeys: 17 cb 67 ee 2c 5b 81 6a d9 44 44 e3 23 24 d7 ec 
+ 6: after inverse PermBits: 38 70 5a b5 41 6c 27 d8 c6 c1 47 71 ee 6e f6 8a 
+ 6: after inverse SubCells: 6e bd c1 ac 20 43 8b 9e 34 30 2b b0 ff 4f 54 e1 
+
+ 5: after inverse AddRoundKeys: ee db a7 ca 40 25 8d f8 54 50 4b b6 9f c7 bc 07 
+ 5: after inverse PermBits: d2 4d c6 69 f4 58 07 3d 82 e9 df 96 79 8e 06 eb 
+ 5: after inverse SubCells: 98 29 34 47 52 ce db 69 e8 f7 95 74 b7 ef d4 fa 
+
+ 4: after inverse AddRoundKeys: 18 2f 52 41 32 c8 dd 6f e8 97 95 72 b7 e7 5c 14 
+ 4: after inverse PermBits: a9 73 2c 29 9e a4 56 fb 5d 95 97 c4 70 47 25 96 
+ 4: after inverse SubCells: 17 b6 83 87 7f 12 c4 5a c9 7c 7b 32 bd 2b 8c 74 
+
+ 3: after inverse AddRoundKeys: b5 d0 e5 e3 1d 54 e2 1e a9 1e 1b 16 dd 29 64 b8 
+ 3: after inverse PermBits: 8f 1b dd 95 51 3c 88 47 76 ac 7c 12 d3 29 a2 d6 
+ 3: after inverse SubCells: e5 0a 99 7c c0 63 ee 2b b4 13 b3 08 96 87 18 94 
+
+ 2: after inverse AddRoundKeys: 67 2c df 58 82 65 e8 2f b4 71 b3 2c 96 85 10 58 
+ 2: after inverse PermBits: da 83 66 70 b2 46 55 0d 78 9f 52 9a 64 13 a9 cc 
+ 2: after inverse SubCells: 91 e6 44 bd a8 24 cc d9 be 75 c8 71 42 06 17 33 
+
+ 1: after inverse AddRoundKeys: 77 80 22 dd ce 22 aa d9 de 13 a8 11 22 00 77 bb 
+ 1: after inverse PermBits: 5a f4 6a f6 30 08 30 02 2e a3 2e a1 d1 bd d1 b9 
+ 1: after inverse SubCells: c1 52 41 54 6d de 6d d8 8f 16 8f 10 90 a9 90 a7 
+
+ 0: after inverse AddRoundKeys: 47 34 47 34 6b d8 6b d8 8f 70 8f 70 90 af 90 af 
+ 0: after inverse PermBits: e8 05 7b d2 93 f6 c4 a1 e8 05 7b d2 93 f6 c4 a1 
+ 0: after inverse SubCells: fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+input = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
+
+Plaintext = fe dc ba 98 76 54 32 10 fe dc ba 98 76 54 32 10 
