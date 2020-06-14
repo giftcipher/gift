@@ -23,10 +23,10 @@ The CHES 2017 paper can be found on the [Springer page](https://link.springer.co
 
 You can find test vectors and reference C implementations for both versions of GIFT on the [GitHub repository of GIFT](https://github.com/giftcipher/gift). 
 
-### Software 
+- Software 
 
 You can find in this [GitHub repository](https://github.com/aadomn/gift) very efficient 8-bit AVR, 32-bit ARM Cortex-M3 and general 32-bit implementations of GIFT and Authenticated encryption GIFT-COFB. 
  
-### Hardware 
+- Hardware 
 
 You can find efficient reference, round-based and fully unrolled hardware implementations of GIFT on [this GitHub repository](https://github.com/qantik/Energy-Analysis-of-Lightweight-AEAD-Circuit). You can also find extremly low-area hardware implementation on [this GitHub repository](https://github.com/qantik/Low-latency-Meets-Low-area-An-Improved-Bit-Sliding-Technique-for-AES-SKINNY-and-GIFT).
